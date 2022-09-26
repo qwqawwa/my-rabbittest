@@ -7,5 +7,3 @@ s
 Crabbitmqtest/src/main/java/com/my/rabbitmq/service/ConsumerAck.java,5\7\57c75618f0ab8689995189b96641f0b8106a805b
 r
 Brabbitmqtest/src/main/java/com/my/rabbitmq/utils/RabbitMQUtil.java,c\4\c4af5ccf5fda0ad83e4aeac1462376ff651cf6be
-è
-_springboot-myrabbitmq/src/main/java/com/example/springbootmyrabbitmq/config/TtlQueueConfig.java,0\f\0fb5755b12856f4819ba2aebb2e56bb6666b0fb0

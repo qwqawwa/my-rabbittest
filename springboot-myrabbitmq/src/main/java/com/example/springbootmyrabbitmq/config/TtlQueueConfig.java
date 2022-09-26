@@ -93,6 +93,7 @@ public class TtlQueueConfig {
         return BindingBuilder.bind(queueD).to(dlExchange).with(ROUTING_KEY_D);
     }
 
+
    /* @Bean
     public ConnectionFactory connectionFactory() {
         CachingConnectionFactory connectionFactory = new CachingConnectionFactory(host,port);
