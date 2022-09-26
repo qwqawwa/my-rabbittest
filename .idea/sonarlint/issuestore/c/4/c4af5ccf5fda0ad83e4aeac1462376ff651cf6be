@@ -1,0 +1,17 @@
+
+`	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(‘±°šüÿÿÿÿ
+`	java:S112 "FDefine and throw a dedicated exception instead of using a generic one.(®ºçÎÿÿÿÿÿ
+P
+java:S1118":Add a private constructor to hide the implicit public one.(ž‡¦ú
+G
+java:S1135	"2Complete the task associated to this TODO comment.(£°§\
+‡
+java:S1130"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(‘±°šüÿÿÿÿ
+‡
+java:S1130 "lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(®ºçÎÿÿÿÿÿ
+a
+java:S1192"FDefine a constant instead of duplicating this literal "guest" 4 times.(¥à¨‡ýÿÿÿÿ
+^
+java:S20950"HUse try-with-resources or close this "Connection" in a "finally" clause.(“…§Ú
+`
+java:S20952"EUse try-with-resources or close this "Channel" in a "finally" clause.(‡î‰´ûÿÿÿÿ
