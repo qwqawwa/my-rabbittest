@@ -87,7 +87,6 @@ public class TtlQueueConfig {
         return BindingBuilder.bind(queueB).to(xExchange).with(ROUTING_KEY_X);
     }
 
-
     //声明绑定
     @Bean
     public Binding queueDBingdingDL(@Qualifier("getExchangeDL") DirectExchange dlExchange,
