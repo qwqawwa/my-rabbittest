@@ -46,7 +46,7 @@ public class TtlQueueConfig {
     public Queue getQueueA(){
         QueueBuilder queueBuilder = QueueBuilder.durable(QUEUE_A);
         //ttl参数设置为毫秒
-        queueBuilder.ttl(10000);
+        //queueBuilder.ttl(10000);
         queueBuilder.deadLetterExchange(EXCHANGE_DEAD_LETTER);
         queueBuilder.deadLetterRoutingKey(ROUTING_KEY_D);
         Queue queue = queueBuilder.build();
@@ -57,7 +57,7 @@ public class TtlQueueConfig {
     @Bean
     public Queue getQueueB(){
         QueueBuilder queueBuilder = QueueBuilder.durable(QUEUE_B);
-        queueBuilder.ttl(10000);
+        //queueBuilder.ttl(10000);
         queueBuilder.deadLetterExchange(EXCHANGE_DEAD_LETTER);
         queueBuilder.deadLetterRoutingKey(ROUTING_KEY_D);
         Queue queue = queueBuilder.build();

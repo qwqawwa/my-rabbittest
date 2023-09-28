@@ -8,6 +8,9 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+
 /**
  * @ClassName SendMsgController
  * @Description 发送消息控制层
@@ -22,10 +25,36 @@ public class SendMsgController {
     @Autowired
     private RabbitTemplate rabbitTemplate;
 
-    @GetMapping("/sendMsg/{message}")
-    public void sendMsg(@PathVariable String message){
+    public static final int CONNECT_COUNT = 1000;
+    public static final int COUNT = 2000;
 
-        rabbitTemplate.convertAndSend("X","Key_X","消息："+message);
-        log.info("hello message: " + message);
+    @GetMapping("/sendMsg/{message}")
+    public void sendMsg(@PathVariable String message) throws InterruptedException {
+        // Consumer.consumerExec();
+        for (int j = 0; j < CONNECT_COUNT; j++) {
+
+            //创建线程池
+            ExecutorService service = Executors.newCachedThreadPool();
+            for (int i = 0; i < COUNT; i++) {
+                int finalI = i;
+                service.submit(() -> {
+                    System.out.println("i : " + finalI + "|线程名称：" + Thread.currentThread().getName());
+                    try {
+                        rabbitTemplate.convertAndSend("X","Key_X","消息："+message);
+                        log.info("hello message: " + message);
+                    } catch (Exception e) {
+                        e.printStackTrace();
+                    }
+                });
+            }
+
+            Thread.sleep(100);
+
+
+
+
+
+        }
+
     }
 }

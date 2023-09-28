@@ -18,7 +18,35 @@ public class ThreadPoolProducer {
 
     public static void main(String[] args) throws Exception {
 
-        //创建线程池
+
+         //创建线程池
+        ExecutorService service = Executors.newCachedThreadPool();
+
+        SysNotice sysNotice = new SysNotice();
+
+        //sysNotice.setMessage("Hello Test ");
+        //mqttServerUtil.publish(sysNotice,"*mqtt*","");
+        for (int j = 0; j < 25; j++) {
+
+            for (int i = 0; i < COUNT; i++) {
+
+                service.submit(() -> {
+                    System.out.println("i : " + Thread.currentThread().getName() + "|线程名称：" + Thread.currentThread().getName());
+                    try {
+                        //Producer.producerExec();
+                        MqttServerUtil_bak mqttServerUtil = new MqttServerUtil_bak();
+                        sysNotice.setMessage("Hello Test "+Thread.currentThread().getName());
+
+                        mqttServerUtil.publish(sysNotice,"*mqtt*");
+                    } catch (Exception e) {
+                        e.printStackTrace();
+                    }
+                });
+            }
+            Thread.sleep(40000);
+        }
+
+      /* MQTT Demo //创建线程池
         ExecutorService service = Executors.newCachedThreadPool();
 
         SysNotice sysNotice = new SysNotice();
@@ -43,7 +71,7 @@ public class ThreadPoolProducer {
                 });
             }
             Thread.sleep(40000);
-        }
+        }*/
     }
 
 

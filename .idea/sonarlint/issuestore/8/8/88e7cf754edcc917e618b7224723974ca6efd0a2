@@ -1,0 +1,20 @@
+
+T
+java:S1854("9Remove this useless assignment to local variable "begin".(ÿ¨Ÿ‘þÿÿÿÿ
+E
+java:S1481("*Remove this unused "begin" local variable.(ÿ¨Ÿ‘þÿÿÿÿ
+N	java:S1063"9Replace this use of System.out or System.err by a logger.(Ü¡°´
+Q	java:S125P"<This block of commented-out lines of code should be removed.(ÃçÞÔ
+G
+java:S1602Y",Remove useless curly braces around statement(·Ç€Òüÿÿÿÿ
+N	java:S106Z"9Replace this use of System.out or System.err by a logger.(ŽÎ’…
+N	java:S106a"9Replace this use of System.out or System.err by a logger.( ëÍŸ
+O	java:S106€"9Replace this use of System.out or System.err by a logger.(…¥ÔÙ
+^
+java:S2095 "HUse try-with-resources or close this "Connection" in a "finally" clause.(“…§Ú
+`
+java:S2095!"EUse try-with-resources or close this "Channel" in a "finally" clause.(‡î‰´ûÿÿÿÿ
+`
+java:S2095;"EUse try-with-resources or close this "Channel" in a "finally" clause.(‡î‰´ûÿÿÿÿ
+^
+java:S2095:"HUse try-with-resources or close this "Connection" in a "finally" clause.(“…§Ú

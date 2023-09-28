@@ -1,8 +1,8 @@
 
+b	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(¤Ó…Ö8ÖÞ²ºÏ0
 U
-java:S1118":Add a private constructor to hide the implicit public one.(Ô†»êýÿÿÿÿ
-N	java:S106."9Replace this use of System.out or System.err by a logger.(Ü¡°´
-^
-java:S2095"HUse try-with-resources or close this "Connection" in a "finally" clause.(“…§Ú
-`
-java:S2095"EUse try-with-resources or close this "Channel" in a "finally" clause.(‡î‰´ûÿÿÿÿ
+java:S1118":Add a private constructor to hide the implicit public one.(Ô†»êýÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(ÇÒö¢þÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(Åïºøúÿÿÿÿ
+N	java:S106#"9Replace this use of System.out or System.err by a logger.(Ü¡°´
+]	java:S125%"<This block of commented-out lines of code should be removed.(Ó‹í˜ýÿÿÿÿ8ÁÌ¼ºÏ0

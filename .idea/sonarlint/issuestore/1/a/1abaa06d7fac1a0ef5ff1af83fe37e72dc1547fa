@@ -1,0 +1,39 @@
+
+V	java:S125"<This block of commented-out lines of code should be removed.(ÅÌÊ®ûÿÿÿÿ
+ 
+java:S1130!"„Remove the declaration of thrown exception 'org.omg.CORBA.portable.ApplicationException', as it cannot be thrown from method's body.(ìÂ¦âøÿÿÿÿ
+‡
+java:S1130!"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(ìÂ¦âøÿÿÿÿ
+P
+java:S1172!"5Remove this unused method parameter "mqttConnection".(ìÂ¦âøÿÿÿÿ
+V	java:S125$"<This block of commented-out lines of code should be removed.(÷“ÜŸùÿÿÿÿ
+S	java:S106("9Replace this use of System.out or System.err by a logger.(š¼„Äùÿÿÿÿ
+N	java:S106,"9Replace this use of System.out or System.err by a logger.(„¿«”
+N	java:S106A"9Replace this use of System.out or System.err by a logger.(ôßû©
+V	java:S1259"<This block of commented-out lines of code should be removed.(¨ã‚øÿÿÿÿ
+V	java:S125="<This block of commented-out lines of code should be removed.(ÙøĞ•ûÿÿÿÿ
+P	java:S125B"<This block of commented-out lines of code should be removed.(—ãd
+V	java:S125O"<This block of commented-out lines of code should be removed.(î™»şÿÿÿÿ
+S	java:S106U"9Replace this use of System.out or System.err by a logger.(şĞãŒúÿÿÿÿ
+S	java:S106Z"9Replace this use of System.out or System.err by a logger.(†›Åùÿÿÿÿ
+V	java:S125["<This block of commented-out lines of code should be removed.(ìœôéøÿÿÿÿ
+N	java:S106b"9Replace this use of System.out or System.err by a logger.(ñ·–¦
+V	java:S125c"<This block of commented-out lines of code should be removed.(®ŠÿĞşÿÿÿÿ
+ 
+java:S1130p"„Remove the declaration of thrown exception 'org.omg.CORBA.portable.ApplicationException', as it cannot be thrown from method's body.(¯ãÇ¿ÿÿÿÿÿ
+“
+java:S1130p"xRemove the declaration of thrown exception 'java.io.FileNotFoundException' which is a subclass of 'java.io.IOException'.(¯ãÇ¿ÿÿÿÿÿ
+‡
+java:S1130p"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(¯ãÇ¿ÿÿÿÿÿ
+Q	java:S125q"<This block of commented-out lines of code should be removed.(ã„œŠ
+Q	java:S125u"<This block of commented-out lines of code should be removed.(¯‹‹¹
+N	java:S106{"9Replace this use of System.out or System.err by a logger.(¤ œ•
+Q	java:S125|"<This block of commented-out lines of code should be removed.(Ÿ–³£
+S	java:S106~"9Replace this use of System.out or System.err by a logger.(š¼„Äùÿÿÿÿ
+Q	java:S125"<This block of commented-out lines of code should be removed.(„®·
+B
+java:S1068"-Remove this unused "mqttTopic" private field.(„¿ü0
+_
+java:S1192A"IDefine a constant instead of duplicating this literal ", time: " 4 times.(ôßû©
+d
+java:S1192U"IDefine a constant instead of duplicating this literal ", host: " 3 times.(şĞãŒúÿÿÿÿ

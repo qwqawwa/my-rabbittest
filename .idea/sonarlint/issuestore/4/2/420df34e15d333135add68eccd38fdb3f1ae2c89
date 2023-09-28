@@ -1,0 +1,29 @@
+
+V	java:S1256"<This block of commented-out lines of code should be removed.(¨ã‚øÿÿÿÿ
+S	java:S106<"9Replace this use of System.out or System.err by a logger.(¢Ëé•ÿÿÿÿÿ
+N	java:S106>"9Replace this use of System.out or System.err by a logger.(ôßû©
+P	java:S125?"<This block of commented-out lines of code should be removed.(—ãd
+V	java:S125L"<This block of commented-out lines of code should be removed.(î™»şÿÿÿÿ
+S	java:S106R"9Replace this use of System.out or System.err by a logger.(şĞãŒúÿÿÿÿ
+S	java:S106W"9Replace this use of System.out or System.err by a logger.(†›Åùÿÿÿÿ
+V	java:S125X"<This block of commented-out lines of code should be removed.(ìœôéøÿÿÿÿ
+N	java:S106_"9Replace this use of System.out or System.err by a logger.(ñ·–¦
+V	java:S125`"<This block of commented-out lines of code should be removed.(®ŠÿĞşÿÿÿÿ
+š
+java:S1130m"„Remove the declaration of thrown exception 'org.omg.CORBA.portable.ApplicationException', as it cannot be thrown from method's body.(’¦¾!
+
+java:S1130m"xRemove the declaration of thrown exception 'java.io.FileNotFoundException' which is a subclass of 'java.io.IOException'.(’¦¾!
+
+java:S1130m"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(’¦¾!
+Q	java:S125n"<This block of commented-out lines of code should be removed.(ã„œŠ
+Q	java:S125r"<This block of commented-out lines of code should be removed.(¯‹‹¹
+N	java:S106w"9Replace this use of System.out or System.err by a logger.(¤ œ•
+Q	java:S125x"<This block of commented-out lines of code should be removed.(Ÿ–³£
+Q	java:S125z"<This block of commented-out lines of code should be removed.(„®·
+B
+java:S1068 "-Remove this unused "mqttTopic" private field.(„¿ü0
+_
+java:S1192>"IDefine a constant instead of duplicating this literal ", time: " 4 times.(ôßû©
+d
+java:S1192R"IDefine a constant instead of duplicating this literal ", host: " 3 times.(şĞãŒúÿÿÿÿ
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(æÍ¥õúÿÿÿÿ
